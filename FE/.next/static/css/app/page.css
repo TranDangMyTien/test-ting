@@ -1,0 +1,98 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/page.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.kols-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.kol-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.no-kols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Chiều cao để căn giữa */
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.scroll-button-up {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #E7811E;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.scroll-button-down {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #32CF6A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.scroll-button-up:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.scroll-button-up:not(:disabled):hover {
+  background-color: #000000;
+}
+.scroll-button-down:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.scroll-button-down:not(:disabled):hover {
+  background-color: #000000;
+}
+
+.loading-text {
+  font-size: 1.2rem;
+  color: #007bff;
+}
